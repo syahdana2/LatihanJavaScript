@@ -1,9 +1,12 @@
 // tanpa arrow
-function gretting(message ='selamat pagi') {
-    return alert(`${message} Cantik !`);
-}
-gretting();
-// menggunakan arrow
-// let gretting = message => alert(`${message} cantik !`);
+// function gretting(message ='selamat pagi') {
+//     return alert(`${message} Cantik !`);
+// }
+// gretting();
+// mendefinisikan fungsi `gretting` menggunakan function
 
-// gretting(`selamat pagi`);
+
+// menggunakan arrow function (=>)
+let gretting = message => alert(`${message} cantik !`);
+// fungsi `gretting` menerima satu argumen yaitu `message`
+gretting(`selamat pagi`);
